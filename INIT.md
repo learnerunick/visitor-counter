@@ -4,18 +4,22 @@
 
 ## 포함된 파일
 - `package.json`: 프로젝트 메타데이터 및 실행 스크립트
-- `server.js`: 포트 `3000`에서 `Hello World`를 반환하는 웹서버
+- `server.js`: 기본 포트 `3000`에서 `Hello World`를 반환하는 웹서버
 
 ## 사용 방법
 1. 의존성 설치
    ```bash
    npm install
    ```
-2. 서버 실행
+2. 서버 실행 (기본 포트 3000)
    ```bash
    npm start
    ```
-3. 브라우저 또는 curl로 확인
+3. 포트 충돌 시 다른 포트로 실행
+   ```bash
+   PORT=3001 npm start
+   ```
+4. 브라우저 또는 curl로 확인
    ```bash
    curl http://localhost:3000
    ```
