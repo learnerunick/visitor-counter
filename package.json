@@ -2,9 +2,9 @@
   "name": "visitor-counter",
   "version": "1.0.0",
   "description": "Node.js starter project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": [],
