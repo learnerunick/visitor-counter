@@ -24,3 +24,12 @@
    ```bash
    curl http://localhost:3000
    ```
+
+## 배포 워크플로우
+- **실제 GitHub Actions 실행 파일**: `.github/workflows/deploy-ec2.yml`
+- 필요한 GitHub Secrets:
+  - `EC2_HOST`
+  - `EC2_USER`
+  - `EC2_SSH_KEY`
+- EC2에서 실행할 배포 스크립트 기본 경로:
+  - `/home/ubuntu/apps/myapp/deploy.sh`
