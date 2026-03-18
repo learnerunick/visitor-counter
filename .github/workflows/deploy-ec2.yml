@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: EC2_SSH_KEY
     timeout-minutes: 20
 
     steps:
